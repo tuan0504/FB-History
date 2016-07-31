@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Data sources">
+        <Preference android:title="dictionary.goo.ne.jp" android:summary="Dictionary Goo is an internet search engine and web portal based in Japan, which crawls and indexes primarily Japanese language websites.">
+            <intent android:action="android.intent.action.VIEW" android:data="http://dictionary.goo.ne.jp/" />
+        </Preference>
+        <Preference android:title="Jisho.org" android:summary="Jisho is a powerful on-line Japanese-English dictionary lovingly crafted by Kim Ahlström">
+            <intent android:action="android.intent.action.VIEW" android:data="http://jisho.org/" />
+        </Preference>
+        <Preference android:title="KanjiVG" android:summary="Provides a SVG file for each kanji that gives the shape and direction of each of its strokes.">
+            <intent android:action="android.intent.action.VIEW" android:data="http://kanjivg.tagaini.net/" />
+        </Preference>
+        <Preference android:title="Tatoeba" android:summary="A collaborative, open and free collection of sentences and translations.">
+            <intent android:action="android.intent.action.VIEW" android:data="http://tatoeba.org/eng/" />
+        </Preference>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Libraries" >
+        <Preference android:title="Material Icons" android:summary="Material icons are beautifully crafted, delightful, and easy to use in your web, Android, and iOS projects.">
+            <intent android:action="android.intent.action.VIEW" android:data="https://google.github.io/material-design-icons/" />
+        </Preference>
+        <Preference android:title="OrmLite" android:summary="Object Relational Mapping Lite (ORM Lite) provides some simple, lightweight functionality for persisting Java objects to SQL databases.">
+            <intent android:action="android.intent.action.VIEW" android:data="http://ormlite.com/" />
+        </Preference>
+    </PreferenceCategory>
+</PreferenceScreen>

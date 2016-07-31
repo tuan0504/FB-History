@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    package="history.facebook.facebookhistory"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:versionCode="@string/code_version"
+    android:versionName="@string/build_version">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Activity.FHistoryActivity"
+            android:windowSoftInputMode="stateHidden"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity.AboutActivity"/>
+        <activity android:name=".Activity.LoginActivity"/>
+        <activity
+            android:name=".Activity.SplashActivity"
+            android:launchMode="singleInstance">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
+    </application>
+</manifest>

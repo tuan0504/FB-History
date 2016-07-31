@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Facebook History</string>
+    <string name="facebook_app_id">1664360920556651</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="search_instructions">Current Time</string>
+
+    <!-- SEARCH CONTENT FRAGMENT-->
+    <string name="package_name">history.facebook.facebookhistory</string>
+
+    <!-- ABOUT ACTIVITY-->
+    <string name="title_activity_about">About Facebook History</string>
+    <string name="title_app_summary">App Summary</string>
+    <string name="title_developer_credit">Development Credits</string>
+    <string name="title_google_services">Google Play Services</string>
+    <string name="title_privacy">Privacy Policy</string>
+    <string name="build_version">1.0.0</string>
+    <string name="code_version">1.0.0</string>
+
+    <string name="text_extra">TextValue</string>
+</resources>
