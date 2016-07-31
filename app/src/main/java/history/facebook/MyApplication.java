@@ -47,10 +47,9 @@ public class MyApplication  extends Application {
     /************************** PUBLIC FUNCTION *************************************/
     public AccessToken  getToken() {
         if(token == null) {
-            String stringToken = "EAACEdEose0cBAARZAYUaoQV5ZBnB7N4DrYzxCVKrU27cvWoWncatZBZCme2rFm8Q0ZAQRqCEXFkilZCztm2VxXTw6Eb0yZAq4STooMuEFXTrdHcdRaWhc1u6uDGCZCbFhoqeTv7tI7iQoU1iOleLrIiz6lq8p3p7V3rlZCK6ItswMwQZDZD";
+            String stringToken = "EAAXpujlypGsBAPrJOeQCpbUuZBtU57yLMxg7gkds4ZCDL5h13IAASPMNqrsJVBfaE68UnPCWXPZCnAZB2dCqR3i8dNAxygsEiX6XkGzDwzKRp4iCB5IowRZBAWx9GnEe4Rjjg0XDnAhZBXj9BctgdsqgBykiG8znnnr7S9GMcq0wZDZD";
             String facebokAppId = "1664360920556651";
             String userId = "1758722161082879";
-            String userIdTemp = "617894414947173";
 
             token = new AccessToken(stringToken, facebokAppId, userId, null, null, null, null, null);
         }
